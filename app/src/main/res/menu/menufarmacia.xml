@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/icono"
+        android:icon="@drawable/logofarma" />
+    <item
+        android:id="@+id/favorito"
+        android:icon="@drawable/ic_launcherfavorito3_foreground"
+        android:title="favorito"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/compartir"
+        android:icon="@drawable/ic_launchercompartir_foreground"
+        android:title="compartir"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/salir"
+        android:icon="@drawable/common_full_open_on_phone"
+        android:title="salir"
+        app:showAsAction="always" />
+</menu>
